@@ -1,0 +1,166 @@
+{
+  "mappings": {
+    "paulevs/betternether/mixin/common/RecipeManagerMixin": {
+      "apply": "Lnet/minecraft/class_1863;method_20705(Ljava/util/Map;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V",
+      "deserialize": "Lnet/minecraft/class_1863;method_17720(Lnet/minecraft/class_2960;Lcom/google/gson/JsonObject;)Lnet/minecraft/class_1860;",
+      "getFirstMatch": "Lnet/minecraft/class_1863;method_8132(Lnet/minecraft/class_3956;Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Ljava/util/Optional;"
+    },
+    "paulevs/betternether/mixin/common/BastionRemnantFeatureMixin": {
+      "shouldStartAt": "Lnet/minecraft/class_5175;method_28617(Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;JLnet/minecraft/class_2919;IILnet/minecraft/class_1959;Lnet/minecraft/class_1923;Lnet/minecraft/class_3812;)Z"
+    },
+    "paulevs/betternether/mixin/common/MinecraftServerMixin": {
+      "reloadResources": "Lnet/minecraft/server/MinecraftServer;method_29439(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;",
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "paulevs/betternether/mixin/common/NetherFortressFeatureMixin": {
+      "shouldStartAt": "Lnet/minecraft/class_3108;method_28640(Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;JLnet/minecraft/class_2919;IILnet/minecraft/class_1959;Lnet/minecraft/class_1923;Lnet/minecraft/class_3111;)Z"
+    },
+    "paulevs/betternether/mixin/common/DefaultAttributeRegistryMixin": {
+      "get": "Lnet/minecraft/class_5135;method_26873(Lnet/minecraft/class_1299;)Lnet/minecraft/class_5132;",
+      "hasDefinitionFor": "Lnet/minecraft/class_5135;method_26875(Lnet/minecraft/class_1299;)Z"
+    },
+    "paulevs/betternether/mixin/common/PickaxeItemMixin": {
+      "isEffectiveOn": "Lnet/minecraft/class_1810;method_7856(Lnet/minecraft/class_2680;)Z"
+    },
+    "paulevs/betternether/mixin/common/SheepEntityMixin": {
+      "interactMob": "Lnet/minecraft/class_1472;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    },
+    "paulevs/betternether/mixin/common/BoneMealMixin": {
+      "useOnBlock": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "paulevs/betternether/mixin/common/ChunkPopulateMixin": {
+      "generateFeatures": "Lnet/minecraft/class_2794;method_12102(Lnet/minecraft/class_3233;Lnet/minecraft/class_5138;)V"
+    },
+    "paulevs/betternether/mixin/client/ClientPlayNetworkHandlerMixin": {
+      "onBlockEntityUpdate": "Lnet/minecraft/class_634;method_11094(Lnet/minecraft/class_2622;)V",
+      "onSignEditorOpen": "Lnet/minecraft/class_634;method_11108(Lnet/minecraft/class_2693;)V"
+    },
+    "paulevs/betternether/mixin/common/DeltaFeatureMixin": {
+      "method_27103": "Lnet/minecraft/class_5154;method_27103(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_5158;)Z"
+    },
+    "paulevs/betternether/mixin/common/MushroomMixin": {
+      "canPlaceAt": "Lnet/minecraft/class_2420;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+      "grow": "Lnet/minecraft/class_2420;method_9652(Lnet/minecraft/class_3218;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+    },
+    "paulevs/betternether/mixin/common/CraftingScreenHandlerMixin": {
+      "canUse": "Lnet/minecraft/class_1714;method_7597(Lnet/minecraft/class_1657;)Z"
+    },
+    "paulevs/betternether/mixin/common/DimensionTypeMixin": {
+      "createNetherGenerator": "Lnet/minecraft/class_2874;method_28535(Lnet/minecraft/class_2378;Lnet/minecraft/class_2378;J)Lnet/minecraft/class_2794;"
+    },
+    "paulevs/betternether/mixin/common/MapMixin": {
+      "updateColors": "Lnet/minecraft/class_1806;method_7998(Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;Lnet/minecraft/class_22;)V"
+    },
+    "paulevs/betternether/mixin/common/ServerPlayNetworkHandlerMixin": {
+      "onSignUpdate": "Lnet/minecraft/class_3244;method_12071(Lnet/minecraft/class_2877;)V"
+    },
+    "paulevs/betternether/mixin/client/BackgroundRenderMixin": {
+      "applyFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZ)V"
+    },
+    "paulevs/betternether/mixin/common/MapStateMixin": {
+      "addIcon": "Lnet/minecraft/class_22;method_107(Lnet/minecraft/class_20$class_21;Lnet/minecraft/class_1936;Ljava/lang/String;DDDLnet/minecraft/class_2561;)V"
+    },
+    "paulevs/betternether/mixin/common/PlayerEntityMixin": {
+      "findRespawnPosition": "Lnet/minecraft/class_1657;method_26091(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;FZZ)Ljava/util/Optional;"
+    },
+    "paulevs/betternether/mixin/common/BrewingRecipeRegistryMixin": {
+      "isValidIngredient": "Lnet/minecraft/class_1845;method_8077(Lnet/minecraft/class_1799;)Z"
+    },
+    "paulevs/betternether/mixin/client/LavaFluidMixin": {
+      "randomDisplayTick": "Lnet/minecraft/class_3616;method_15776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Ljava/util/Random;)V"
+    },
+    "paulevs/betternether/mixin/common/NetherWartMixin": {
+      "randomTick": "Lnet/minecraft/class_2421;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Ljava/util/Random;)V",
+      "canPlantOnTop": "Lnet/minecraft/class_2421;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "paulevs/betternether/mixin/common/GenerationSettingsAccessor": {
+      "structureFeatures": "field_26417:Ljava/util/List;"
+    },
+    "paulevs/betternether/mixin/common/RecipeManagerAccessor": {
+      "recipes": "field_9023:Ljava/util/Map;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "paulevs/betternether/mixin/common/RecipeManagerMixin": {
+        "apply": "Lnet/minecraft/class_1863;method_20705(Ljava/util/Map;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V",
+        "deserialize": "Lnet/minecraft/class_1863;method_17720(Lnet/minecraft/class_2960;Lcom/google/gson/JsonObject;)Lnet/minecraft/class_1860;",
+        "getFirstMatch": "Lnet/minecraft/class_1863;method_8132(Lnet/minecraft/class_3956;Lnet/minecraft/class_1263;Lnet/minecraft/class_1937;)Ljava/util/Optional;"
+      },
+      "paulevs/betternether/mixin/common/BastionRemnantFeatureMixin": {
+        "shouldStartAt": "Lnet/minecraft/class_5175;method_28617(Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;JLnet/minecraft/class_2919;IILnet/minecraft/class_1959;Lnet/minecraft/class_1923;Lnet/minecraft/class_3812;)Z"
+      },
+      "paulevs/betternether/mixin/common/MinecraftServerMixin": {
+        "reloadResources": "Lnet/minecraft/server/MinecraftServer;method_29439(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;",
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "paulevs/betternether/mixin/common/NetherFortressFeatureMixin": {
+        "shouldStartAt": "Lnet/minecraft/class_3108;method_28640(Lnet/minecraft/class_2794;Lnet/minecraft/class_1966;JLnet/minecraft/class_2919;IILnet/minecraft/class_1959;Lnet/minecraft/class_1923;Lnet/minecraft/class_3111;)Z"
+      },
+      "paulevs/betternether/mixin/common/DefaultAttributeRegistryMixin": {
+        "get": "Lnet/minecraft/class_5135;method_26873(Lnet/minecraft/class_1299;)Lnet/minecraft/class_5132;",
+        "hasDefinitionFor": "Lnet/minecraft/class_5135;method_26875(Lnet/minecraft/class_1299;)Z"
+      },
+      "paulevs/betternether/mixin/common/PickaxeItemMixin": {
+        "isEffectiveOn": "Lnet/minecraft/class_1810;method_7856(Lnet/minecraft/class_2680;)Z"
+      },
+      "paulevs/betternether/mixin/common/SheepEntityMixin": {
+        "interactMob": "Lnet/minecraft/class_1472;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      },
+      "paulevs/betternether/mixin/common/BoneMealMixin": {
+        "useOnBlock": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "paulevs/betternether/mixin/common/ChunkPopulateMixin": {
+        "generateFeatures": "Lnet/minecraft/class_2794;method_12102(Lnet/minecraft/class_3233;Lnet/minecraft/class_5138;)V"
+      },
+      "paulevs/betternether/mixin/client/ClientPlayNetworkHandlerMixin": {
+        "onBlockEntityUpdate": "Lnet/minecraft/class_634;method_11094(Lnet/minecraft/class_2622;)V",
+        "onSignEditorOpen": "Lnet/minecraft/class_634;method_11108(Lnet/minecraft/class_2693;)V"
+      },
+      "paulevs/betternether/mixin/common/DeltaFeatureMixin": {
+        "method_27103": "Lnet/minecraft/class_5154;method_27103(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_5158;)Z"
+      },
+      "paulevs/betternether/mixin/common/MushroomMixin": {
+        "canPlaceAt": "Lnet/minecraft/class_2420;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+        "grow": "Lnet/minecraft/class_2420;method_9652(Lnet/minecraft/class_3218;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+      },
+      "paulevs/betternether/mixin/common/CraftingScreenHandlerMixin": {
+        "canUse": "Lnet/minecraft/class_1714;method_7597(Lnet/minecraft/class_1657;)Z"
+      },
+      "paulevs/betternether/mixin/common/DimensionTypeMixin": {
+        "createNetherGenerator": "Lnet/minecraft/class_2874;method_28535(Lnet/minecraft/class_2378;Lnet/minecraft/class_2378;J)Lnet/minecraft/class_2794;"
+      },
+      "paulevs/betternether/mixin/common/MapMixin": {
+        "updateColors": "Lnet/minecraft/class_1806;method_7998(Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;Lnet/minecraft/class_22;)V"
+      },
+      "paulevs/betternether/mixin/common/ServerPlayNetworkHandlerMixin": {
+        "onSignUpdate": "Lnet/minecraft/class_3244;method_12071(Lnet/minecraft/class_2877;)V"
+      },
+      "paulevs/betternether/mixin/client/BackgroundRenderMixin": {
+        "applyFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZ)V"
+      },
+      "paulevs/betternether/mixin/common/MapStateMixin": {
+        "addIcon": "Lnet/minecraft/class_22;method_107(Lnet/minecraft/class_20$class_21;Lnet/minecraft/class_1936;Ljava/lang/String;DDDLnet/minecraft/class_2561;)V"
+      },
+      "paulevs/betternether/mixin/common/PlayerEntityMixin": {
+        "findRespawnPosition": "Lnet/minecraft/class_1657;method_26091(Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;FZZ)Ljava/util/Optional;"
+      },
+      "paulevs/betternether/mixin/common/BrewingRecipeRegistryMixin": {
+        "isValidIngredient": "Lnet/minecraft/class_1845;method_8077(Lnet/minecraft/class_1799;)Z"
+      },
+      "paulevs/betternether/mixin/client/LavaFluidMixin": {
+        "randomDisplayTick": "Lnet/minecraft/class_3616;method_15776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Ljava/util/Random;)V"
+      },
+      "paulevs/betternether/mixin/common/NetherWartMixin": {
+        "randomTick": "Lnet/minecraft/class_2421;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Ljava/util/Random;)V",
+        "canPlantOnTop": "Lnet/minecraft/class_2421;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "paulevs/betternether/mixin/common/GenerationSettingsAccessor": {
+        "structureFeatures": "field_26417:Ljava/util/List;"
+      },
+      "paulevs/betternether/mixin/common/RecipeManagerAccessor": {
+        "recipes": "field_9023:Ljava/util/Map;"
+      }
+    }
+  }
+}
